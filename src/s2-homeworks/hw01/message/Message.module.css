@@ -1,16 +1,31 @@
 .message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
 .imageAndText {
-
+        display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 10px
 }
 
 .imageAndText img {
+    width: 48px;
+    height: 48px;
 
 }
 
 .text {
+    border-radius: 5px;
+    background-color: #0066CC;
+    max-width: 527px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
@@ -19,11 +34,15 @@
 }
 
 .name {
-
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .messageText {
-
+ color: white;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .time {
